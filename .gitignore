@@ -1,0 +1,11 @@
+# Reglas comunes a todo el monorepo (cada proyecto tiene además su propio .gitignore)
+node_modules/
+.venv/
+__pycache__/
+dist/
+.env
+.env.*
+!.env.example
+*.sqlite3
+.DS_Store
+Thumbs.db

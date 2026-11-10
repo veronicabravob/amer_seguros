@@ -1,0 +1,32 @@
+# Dependencias
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Compilados
+dist/
+*.tsbuildinfo
+
+# Base de datos local (nunca se sube: ver docs/DATOS.md)
+*.sqlite3
+*.sql
+
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Evidencia de las pruebas (se regenera; ver .claude/skills/pruebas-e2e-playwright)
+e2e/evidencia/
+playwright-report/
+.pytest_cache/
+.ruff_cache/
+coverage/
+htmlcov/
+.coverage
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+*.swp
